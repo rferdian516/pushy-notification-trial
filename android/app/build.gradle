@@ -35,7 +35,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "me.pushy.example"
+        applicationId "com.rdl.dengerind_member"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()

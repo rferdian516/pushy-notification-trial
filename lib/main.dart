@@ -18,7 +18,7 @@ void backgroundNotificationListener(Map<String, dynamic> data) {
   String notificationTitle = 'MyApp';
 
   // Attempt to extract the "message" property from the payload: {"message":"Hello World!"}
-  String notificationText = data['message'] ?? 'Hello World!';
+  String notificationText = data['message'] ?? 'Test Dummy Dengerind!';
 
   // Android: Displays a system notification
   // iOS: Displays an alert dialog
@@ -64,7 +64,7 @@ class _PushyDemoState extends State<PushyDemo> {
   Future<void> initPlatformState() async {
     // Start the Pushy service
     Pushy.listen();
-    
+
     // Enable FCM Fallback Delivery
     Pushy.toggleFCM(true);
 

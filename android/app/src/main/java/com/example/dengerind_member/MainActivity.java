@@ -1,4 +1,4 @@
-package me.pushy.example;
+package com.rdl.dengerind_member;
 
 import io.flutter.embedding.android.FlutterActivity;
 
